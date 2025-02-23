@@ -14,15 +14,9 @@ export default function Main() {
 				<h1 className={`${bebasNeue.className} text-8xl font-bold`}>
 					ROCK CLUB
 				</h1>
-				{/* <p className='mb-8 text-[#ffcc03] font-bold text-2xl text-center'>
-					Ваш шлях до майстерності в сучасному, рок та екстрим-вокалі!
-				</p> */}
-				{/* <button className='p-[1rem] rounded-lg bg-[#6e47f9] font-bolt tracking-widest'>
-					Записатися
-				</button> */}
 				<Link
 					href={'/'}
-					className='text-[#ffffff] text-2xl font-bold tracking-widest [text-shadow:0_0_10px_#aa1515,0_0_20px_#ea0000,0_0_30px_#e88989]'
+					className='text-[#ffffff] text-5xl font-bold [text-shadow:0_0_10px_#ffe500,0_0_20px_#e88989,0_0_30px_#e88989] tracking-wider'
 				>
 					Записатися
 				</Link>
