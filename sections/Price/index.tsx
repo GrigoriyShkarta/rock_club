@@ -3,7 +3,7 @@ import Link from 'next/link'
 export default function Price() {
 	return (
 		<div className='p-[1rem] flex flex-col items-center text-center gap-8 bg-[#010305]'>
-			<h1 className='font-bold text-6xl'>ЦІНА</h1>
+			<h1 className='font-bold text-4xl'>ЦІНА</h1>
 			<div
 				className='p-6 rounded-lg'
 				style={{

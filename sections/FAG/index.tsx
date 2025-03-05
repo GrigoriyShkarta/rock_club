@@ -45,7 +45,7 @@ export default function FAQ() {
 
 	return (
 		<section className='max-w-2xl mx-auto p-[1rem]'>
-			<h2 className='text-5xl font-bold text-center mb-6'>ЧАСТІ ПИТАННЯ</h2>
+			<h2 className='text-4xl font-bold text-center mb-6'>ЧАСТІ ПИТАННЯ</h2>
 			<div className='space-y-4'>
 				{faqs.map((faq, index) => (
 					<div key={index} className='border border-gray-300 rounded-lg p-4'>
