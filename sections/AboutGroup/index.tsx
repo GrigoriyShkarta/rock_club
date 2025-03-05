@@ -9,8 +9,12 @@ export default function AboutGroup() {
 				backgroundPosition: 'center',
 			}}
 		>
-			<div className='p-[1rem] flex flex-col items-center text-center gap-8 bg-black/60 rounded-xl '>
+			<div className='p-[1rem] flex flex-col items-center text-center gap-8 bg-black/80 rounded-xl '>
 				<h1 className='font-bold text-5xl'>для кого цей клуб</h1>
+				<p className='text-3xl'>
+					Для вокалістів, які прагнуть підняти свої вокальні навички на новий
+					рівень.
+				</p>
 				<p className='text-3xl'>
 					Для викладачів, які хочуть поглибити свої знання і отримати нові
 					інструменти для навчання своїх учнів.

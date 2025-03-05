@@ -10,7 +10,7 @@ export default function ExclusiveClub() {
 				backgroundPosition: 'center',
 			}}
 		>
-			<div className='bg-black/60 p-5 rounded-xl flex flex-col items-center text-center gap-8'>
+			<div className='bg-black/80 p-5 rounded-xl flex flex-col items-center text-center gap-8'>
 				<p className='text-3xl'>
 					ROCK Vocal Club — це ексклюзивний закритий клуб для вокалістів та
 					викладачів, присвячений розвитку та вдосконаленню сучасного, рок та

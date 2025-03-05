@@ -10,10 +10,12 @@ export default function Advantages() {
 				backgroundPosition: 'center',
 			}}
 		>
-			<div className='p-[1rem] flex flex-col items-center gap-8 bg-black/70 rounded-xl'>
-				<h1 className='font-bold text-5xl text-center'>
-					що ви отримаєте в ROCK Vocal Club
-				</h1>
+			<div className='p-[1rem] flex flex-col items-center gap-6 bg-black/80 rounded-xl'>
+				<div className='flex flex-col'>
+					<h1 className='font-bold text-5xl text-center'>що ви отримаєте в</h1>
+					<h1 className='font-bold text-5xl text-center'>ROCK Vocal Club</h1>
+				</div>
+
 				<div className='flex gap-2 items-center w-full'>
 					<IoStarHalfSharp
 						color='#149eca'
@@ -54,7 +56,10 @@ export default function Advantages() {
 						size={38}
 						className='flex-shrink-0'
 					/>
-					<p className='text-2xl'>Матеріали для вдосконалення технік</p>
+					<p className='text-2xl'>
+						Матеріали для вдосконалення технік та занурення в стилістику
+						рок-музики і вокалу
+					</p>
 				</div>
 				<div className='flex gap-2 items-center w-full'>
 					<IoStarHalfSharp
