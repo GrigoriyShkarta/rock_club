@@ -20,7 +20,7 @@ const images = [one, two, three, four, five, six, seven, nine]
 export default function Reviews() {
 	return (
 		<div className='flex flex-col gap-6'>
-			<h1 className='text-5xl font-bold text-center'>Відгуки</h1>
+			<h1 className='text-5xl font-bold text-center'>ВІДГУКИ</h1>
 			<Carousel autoPlay infiniteLoop>
 				{images.map((img, index) => (
 					<div key={index} className={s.imageWrapper}>
