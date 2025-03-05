@@ -11,11 +11,14 @@ import four from '@/assets/reviews/4.jpg'
 import five from '@/assets/reviews/5.jpg'
 import six from '@/assets/reviews/6.jpg'
 import seven from '@/assets/reviews/7.jpg'
-import nine from '@/assets/reviews/9.jpg'
+// import nine from '@/assets/reviews/9.jpg'
+import ten from '@/assets/reviews/10.jpg'
+import od from '@/assets/reviews/11.jpg'
+import dw from '@/assets/reviews/12.jpg'
 
 import s from './style.module.css'
 
-const images = [one, two, three, four, five, six, seven, nine]
+const images = [one, two, three, four, five, six, seven, ten, od, dw]
 
 export default function Reviews() {
 	return (

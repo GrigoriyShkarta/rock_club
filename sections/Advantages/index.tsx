@@ -13,7 +13,7 @@ export default function Advantages() {
 			<div className='p-[1rem] flex flex-col items-center gap-6 bg-black/80 rounded-xl'>
 				<div className='flex flex-col'>
 					<h1 className='font-bold text-4xl text-center'>ЩО ВИ ОТРИМАЄТЕ В</h1>
-					<h1 className='font-bold text-4xl text-center'>ROCK Vocal Club</h1>
+					<h1 className='font-bold text-4xl text-center'>ROCK Club</h1>
 				</div>
 
 				<div className='flex gap-2 items-center w-full'>
