@@ -50,13 +50,15 @@ export default function FAQ() {
 				{faqs.map((faq, index) => (
 					<div key={index} className='border border-gray-300 rounded-lg p-4'>
 						<button
-							className='flex justify-between w-full text-lg font-medium'
+							className='flex justify-between w-full font-medium text-2xl'
 							onClick={() => setOpenIndex(openIndex === index ? null : index)}
 						>
 							{faq.question}
 							{openIndex === index ? <IoChevronUp /> : <IoChevronDown />}
 						</button>
-						{openIndex === index && <p className='mt-2'>{faq.answer}</p>}
+						{openIndex === index && (
+							<p className='mt-2 text-2xl'>{faq.answer}</p>
+						)}
 					</div>
 				))}
 			</div>
