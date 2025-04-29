@@ -30,7 +30,7 @@ export const metadata: Metadata = {
 
 export default function Home() {
 	return (
-		<main className='w-700px'>
+		<main className='max-w-[896px] w-full mx-auto overflow-hidden'>
 			<Main />
 			<AboutGroup />
 			<ExclusiveClub />

@@ -3,6 +3,7 @@ import exclusive from '@/assets/exclusive_club.jpeg'
 export default function ExclusiveClub() {
 	return (
 		<div
+			className='hidden max-sm:block'
 			style={{
 				backgroundImage: `url(${exclusive.src})`,
 				backgroundSize: 'cover',
