@@ -51,7 +51,7 @@ export default function Price() {
 			{/*</div>*/}
       <div className='h-[30vh] flex flex-col gap-3 items-center justify-center'>
         <h1 className='text-red-700 text-5xl'>!!!</h1>
-        <p className='text-center text-2xl'>Набір до групи закритий, слідкуй за актуальною інформацією у соціальних мережах </p>
+        <p className='text-center text-2xl'>Набір до клубу закритий, слідкуй за актуальною інформацією у соціальних мережах </p>
       </div>
 		</div>
 	)
